@@ -38,8 +38,8 @@ const config: Config = {
         },
       },
       animation: {
-        marquee: 'marquee 200s linear infinite',
-        marqueeReverse: 'marquee 200s linear infinite reverse',
+        marquee: 'marquee 300s linear infinite',
+        marqueeReverse: 'marquee 300s linear infinite reverse',
 
       },
       

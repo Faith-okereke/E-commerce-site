@@ -1,26 +1,32 @@
-import { FaSearch } from "react-icons/fa";
+import { CiSearch } from "react-icons/ci";
 import Image from "next/image";
 export default function NavbarCheckout() {
   return (
-    <div className=" bg-[white] w-screen flex items-center justify-between p-2">
-      <img src="images/Logo.png" alt="" />
-      <div className="flex items-center justify-center bg-[white] rounded-[10px]">
-        <div className=" flex cursor-pointer border-[7px] border-[brown]flex justify-normal items-center gap-[6rem] w-[550px] bg-white rounded-[10px] p-2">
+    <div className=" bg-[white] flex items-center justify-between pl-8 pr-8 pt-4">
+      <div className="flex items-center">
+      <h2 className="text-[purple] font-extrabold text-[15px] font-dm-serif sm:hidden ">
+              Pick n buy
+            </h2>
+      <img className="w-[20px] md:w-auto" src="images/Logo.png" alt="" />
+      </div>
+      
+      <div className=" items-center justify-center bg-[white] rounded-[10px]  hidden md:flex">
+        <div className=" flex cursor-pointer border-[2px] border-[brown]flex justify-normal items-center gap-[6rem] w-[550px] bg-gray rounded-[10px] p-2">
           <div className="cursor-pointer">
-            <FaSearch />
+          <CiSearch />
           </div>
           <input
-            className="border-0 outline-none cursor-pointer w"
+            className="border-0 outline-none cursor-pointer bg-gray"
             type="text"
             placeholder="Sneakers"
           />
         </div>
       </div>
-      <div className="flex justify-end items-center gap-[1rem] p-2 ">
-        <img className="w-[32px] h-[32px]" src="/images/heart.png" alt="Logo" />
-        <img className="w-[32px] h-[32px]" src="/images/cart.png" alt="Cart" />
-        <div className="bg-[purple] rounded-full w-[45px] h-[45px] ml-2 flex justify-center items-center">
-          <p className="text-white text-center">F</p>
+      <div className="flex justify-end items-center gap-[1rem] ">
+        <img className="md:w-[32px] md:h-[32px] w-[20px]" src="/images/heart.png" alt="Logo" />
+        <img className="md:w-[32px] md:h-[32px] w-[20px]" src="/images/cart.png" alt="Cart" />
+        <div className="bg-[purple] rounded-full md:w-[45px] md:h-[45px] w-[20px] h-[20px] flex justify-center items-center">
+          <p className="text-white text-center text-sm md:text-md">F</p>
         </div>
       </div>
     </div>
