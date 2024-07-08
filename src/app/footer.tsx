@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <main className="md:p-[50px] p-4 border-t-2 text-sm">
+    <div className="md:p-[50px] p-4 border-t-2 text-sm">
       <div className="justify-between flex flex-col">
       <div className="">
         <div className="flex items-center pb-2 ">
@@ -32,6 +32,6 @@ export default function Footer() {
       </div>
       </div>
      
-    </main>
+    </div>
   );
 }
