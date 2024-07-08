@@ -3,7 +3,7 @@ import logo from "/public/images/logo.png"
 export default function Footer() {
   return (
     <div className="md:p-[50px] p-4 border-t-2 text-sm">
-      <div className="justify-between flex flex-col">
+      <div className="justify-between flex flex-col md:flex-row">
       <div className="">
         <div className="flex items-center pb-2 ">
           <h2 className="text-[purple] font-extrabold">Pick n buy</h2>

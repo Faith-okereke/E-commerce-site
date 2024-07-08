@@ -10,7 +10,7 @@ export default function NavbarCheckout() {
       <h2 className="text-[purple] font-extrabold text-[15px] font-dm-serif sm:hidden ">
               Pick n buy
             </h2>
-      <Image width={32} height={32} className="w-[20px] md:w-auto" src={logo} alt="" />
+      <Image width={200} height={200} className="w-[20px] md:w-auto" src={logo} alt="" />
       </div>
       
       <div className=" items-center justify-center bg-[white] rounded-[10px]  hidden md:flex">
