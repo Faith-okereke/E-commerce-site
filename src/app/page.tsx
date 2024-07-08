@@ -1,19 +1,10 @@
 "use client";
 import { CiSearch } from "react-icons/ci";
-import{useEffect} from "react"
-import { useState } from "react";
 import Marquee from "./marquee";
 import "./globals.css";
 import Navbar from "./navbar";
-import Link from "next/link";
 import Alsolike from "./alsolike";
 export default function Home() {
-  const [products, setProducts] = useState([])
-  useEffect(() => {
-    fetch('/api/products')
-      .then((response) => response.json())
-      .then((data) => setProducts(data));
-  }, []);
   return (
     <div className="">
       <Navbar />

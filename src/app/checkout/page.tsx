@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import NavbarCheckout from "../checkoutNavbar";
 import Alsolike from "../alsolike";
 import Link from "next/link";
-export default function checkout() {
+export default function Checkout() {
   const [count, setCount] = useState(0);
   const [item,setItem] = useState(false)
   const addNumber = () => {

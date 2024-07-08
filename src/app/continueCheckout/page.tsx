@@ -2,7 +2,7 @@ import React from "react";
 import NavbarCheckout from "../checkoutNavbar";
 import Alsolike from "../alsolike";
 import Link from "next/link";
-export default function page() {
+export default function ContinueCheckout() {
   return (
     <div className="p-3 text-xs">
       <NavbarCheckout />
