@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image"
 import success from "/public/images/Success.png"
-export default function () {
+ const ThankYouPage: React.FC = () => {
   return (
     <div className="flex flex-col justify-center items-center gap-3 mt-3">
       <Image width={100} height={100} className="w-20" src={success} alt="" />
@@ -27,3 +27,4 @@ export default function () {
     </div>
   );
 }
+export default ThankYouPage;
