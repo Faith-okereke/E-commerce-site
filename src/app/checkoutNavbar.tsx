@@ -2,7 +2,7 @@ import { CiSearch } from "react-icons/ci";
 import Image from "next/image";
 import cart from "/public/images/cart.png"
 import heart from "/public/images/heart.png"
-import logo from "/public/images/logo.png"
+import logo from "/public/images/Logo.png"
 export default function NavbarCheckout() {
   return (
     <div className=" bg-[white] flex items-center justify-between pl-8 pr-8 pt-4">
