@@ -16,7 +16,7 @@ export default function Home() {
             <h2 className="text-[purple] font-extrabold text-[40px] font-dm-serif ">
               Pick n buy
             </h2>
-            <img src="/images/logo.png" alt="Logo" />
+            <Image src="/images/logo.png" alt="Logo" />
           </div>
     
          

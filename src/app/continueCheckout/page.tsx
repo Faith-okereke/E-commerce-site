@@ -2,6 +2,7 @@ import React from "react";
 import NavbarCheckout from "../checkoutNavbar";
 import Alsolike from "../alsolike";
 import Link from "next/link";
+import Image from "next/image";
 export default function ContinueCheckout() {
   return (
     <div className="p-3 text-xs">
@@ -10,20 +11,20 @@ export default function ContinueCheckout() {
       <div className="flex md:flex-row flex-col justify-between md:gap-96 items-center mt-8 md:border-2 md:rounded-2xl md:border-gray-300 md:m-7 ">
         <div className="">
           <div className="p-4 flex items-center justify-normal gap-1">
-            <img src="images/nike.png" alt="" />
+            <Image src="images/nike.png" alt="" />
             <p>Nike</p>
           </div>
           <div className="md:order-2">
             <h1 className="pb-5 pt-5 font-bold text-lg">Order Summary</h1>
             <div className="flex align-top justify-between md:gap-8 gap-2">
-              <img className="w-[100px]" src="imageClothes/sample.png" alt="" />
+              <Image className="w-[100px]" src="imageClothes/sample.png" alt="" />
               <div className="flex flex-col gap-4 md:gap-7 ">
                 <div>
                   <p className="font-bold">Nike Sneakers</p>
                   <p className="text-gray-300 pt-2">Randy Orange / 42</p>
                 </div>
                 <div className="flex justify-evenly items-center gap-2 mt-4 md:m-0 bg-gray p-1 rounded-md md:w-[150px]">
-                  <img src="images/delete.png" alt="" />
+                  <Image src="images/delete.png" alt="" />
                   <p>1</p>
                   <p className="font-bold text-[18px]">+</p>
                 </div>

@@ -7,7 +7,7 @@ export default function NavbarCheckout() {
       <h2 className="text-[purple] font-extrabold text-[15px] font-dm-serif sm:hidden ">
               Pick n buy
             </h2>
-      <img className="w-[20px] md:w-auto" src="images/Logo.png" alt="" />
+      <Image className="w-[20px] md:w-auto" src="images/Logo.png" alt="" />
       </div>
       
       <div className=" items-center justify-center bg-[white] rounded-[10px]  hidden md:flex">
@@ -23,8 +23,8 @@ export default function NavbarCheckout() {
         </div>
       </div>
       <div className="flex justify-end items-center gap-[1rem] ">
-        <img className="md:w-[32px] md:h-[32px] w-[20px]" src="/images/heart.png" alt="Logo" />
-        <img className="md:w-[32px] md:h-[32px] w-[20px]" src="/images/cart.png" alt="Cart" />
+        <Image className="md:w-[32px] md:h-[32px] w-[20px]" src="/images/heart.png" alt="Logo" />
+        <Image className="md:w-[32px] md:h-[32px] w-[20px]" src="/images/cart.png" alt="Cart" />
         <div className="bg-[purple] rounded-full md:w-[45px] md:h-[45px] w-[20px] h-[20px] flex justify-center items-center">
           <p className="text-white text-center text-sm md:text-md">F</p>
         </div>

@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import NavbarCheckout from "../checkoutNavbar";
 import Alsolike from "../alsolike";
 import Link from "next/link";
+import Image from "next/image"
 export default function Checkout() {
   const [count, setCount] = useState(0);
   const [item,setItem] = useState(false)
@@ -22,16 +23,16 @@ export default function Checkout() {
       <NavbarCheckout />
       <div className=" md:flex md:flex-row flex-col md:justify-evenly mt-8 justify-center items-center md:items-start">
         <div className="p-4 flex justify-center items-center md:block">
-          <img className="w-[300px]" src="imageClothes/Rectangle-22.png" alt="" />
+          <Image className="w-[300px]" src="imageClothes/Rectangle-22.png" alt="" />
         </div>
         <div className="checkout text-sm flex flex-col justify-normal">
           <div className="flex items-center justify-normal gap-2 pt-2">
-            <img src="images/nike.png" alt="" />
+            <Image src="images/nike.png" alt="" />
             <p>Nike</p>
           </div>
           <div className="flex justify-between items-center pt-2">
             <p className="text-sm">Nike sneakers - Anorak</p>
-            <img className=" p-1 w-[30px]" src="images/favorite.png" alt="" />
+            <Image className=" p-1 w-[30px]" src="images/favorite.png" alt="" />
           </div>
           <div className="flex justify-between items-center pt-2">
             <p>Color</p>
@@ -84,22 +85,22 @@ export default function Checkout() {
       <div className="flex justify-evenly md:flex-row flex-col md:gap-5">
         <div className=" pt-8 md:p-0 md:order-1">
           <div className=" justify-center md:justify-normal md:items-start items-center gap-2 mb-5 hidden md:flex">
-            <img
+            <Image
               className="w-[50px] h-[50px] rounded-sm"
               src="imageClothes/Rectangle-22.png"
               alt=""
             />
-            <img
+            <Image
               className="w-[50px] h-[50px] rounded-sm"
               src="imageClothes/Rectangle-22.png"
               alt=""
             />
-            <img
+            <Image
               className="w-[50px] h-[50px] rounded-sm"
               src="imageClothes/Rectangle-22.png"
               alt=""
             />
-            <img
+            <Image
               className="w-[50px] h-[50px] rounded-sm"
               src="imageClothes/Rectangle-22.png"
               alt=""
@@ -108,10 +109,10 @@ export default function Checkout() {
           <div className="flex gap-1 flex-row pb-4">
             <p>Reviews</p>
             <div className="flex items-center">
-              <img src="images/star.png" alt="" />
-              <img src="images/star.png" alt="" />
-              <img src="images/star.png" alt="" />
-              <img src="images/star.png" alt="" />
+              <Image src="images/star.png" alt="" />
+              <Image src="images/star.png" alt="" />
+              <Image src="images/star.png" alt="" />
+              <Image src="images/star.png" alt="" />
             </div>
 
             <p>8.4</p>
@@ -119,10 +120,10 @@ export default function Checkout() {
           <div className="flex flex-row overflow-x-hidden md:overflow-visible gap-2">
             <div className="text-sm border-2 md:border-none p-2 rounded-md md:rounded-none">
               <div className="flex items-center mt-6 ">
-                <img src="images/star.png" alt="" />
-                <img src="images/star.png" alt="" />
-                <img src="images/star.png" alt="" />
-                <img src="images/star.png" alt="" />
+                <Image src="images/star.png" alt="" />
+                <Image src="images/star.png" alt="" />
+                <Image src="images/star.png" alt="" />
+                <Image src="images/star.png" alt="" />
               </div>
               <div className="flex text-gray-300">
                 <p>OluwaKemi Ayo .</p>
@@ -137,10 +138,10 @@ export default function Checkout() {
             </div>
             <div className="text-sm border-2 md:border-none p-2 rounded-md md:rounded-none">
               <div className=" flex items-center mt-6  ">
-                <img src="images/star.png" alt="" />
-                <img src="images/star.png" alt="" />
-                <img src="images/star.png" alt="" />
-                <img src="images/star.png" alt="" />
+                <Image src="images/star.png" alt="" />
+                <Image src="images/star.png" alt="" />
+                <Image src="images/star.png" alt="" />
+                <Image src="images/star.png" alt="" />
               </div>
               <div className="flex text-gray-300">
                 <p>OluwaKemi Ayo .</p>
@@ -163,7 +164,7 @@ export default function Checkout() {
           </p>
           <p >Welcome Washington Area Bicyclist Association <br /> supporters! 15% of sales go to WABA, supporting <br />their mission. Empowering people to ride bikes , <br /> build con... <span className="font-bold cursor-pointer">Read more</span></p>
           <button className="flex items-center justify-center gap-1 rounded-md bg-gray p-2 text-[14px] mt-2">
-            <img src="images/link.png" alt="" />
+            <Image src="images/link.png" alt="" />
             <p> More details at Nike</p>
           </button>
           <div className="flex gap-1 mt-2">

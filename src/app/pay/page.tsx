@@ -1,6 +1,7 @@
 import React from "react";
 import NavbarCheckout from "../checkoutNavbar";
 import Link from "next/link";
+import Image from "next/image"
 export default function page() {
   return (
     <div className="p-4 text-xs">
@@ -9,7 +10,7 @@ export default function page() {
         <div className="md:order-2">
         <h1 className="pb-5 pt-5 font-bold text-lg">Order Summary</h1>
         <div className="flex align-top justify-between md:gap-8 gap-2">
-          <img className="w-[100px]" src="imageClothes/sample.png" alt="" />
+          <Image className="w-[100px]" src="imageClothes/sample.png" alt="" />
           <div className="flex flex-col gap-4 md:gap-7 ">
             <div>
               <p className="font-bold">Nike Sneakers</p>
@@ -32,8 +33,8 @@ export default function page() {
           <h1 className="pb-5 pt-5 font-bold text-lg">Payment details</h1>
           <div className="flex justify-normal gap-2 pb-2">
             <h2>Credit or Debit Card</h2>
-            <img src="images/mastercard.png" alt="" />
-            <img src="images/verve-card.png" alt="" />
+            <Image src="images/mastercard.png" alt="" />
+            <Image src="images/verve-card.png" alt="" />
           </div>
           <form  action="">
             <div className="md:flex md:gap-2 ">

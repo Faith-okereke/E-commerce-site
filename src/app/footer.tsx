@@ -1,3 +1,4 @@
+import Image from "next/image"
 export default function Footer() {
   return (
     <div className="md:p-[50px] p-4 border-t-2 text-sm">
@@ -5,7 +6,7 @@ export default function Footer() {
       <div className="">
         <div className="flex items-center pb-2 ">
           <h2 className="text-[purple] font-extrabold">Pick n buy</h2>
-          <img className="w-[24px] " src="/images/logo.png" alt="Logo" />
+          <Image className="w-[24px] " src="/images/logo.png" alt="Logo" />
         </div>
         <p className="w-[200px] text-xs text-justify">
           Pick n buy is the place to get all your clothing needs. Our mission is
