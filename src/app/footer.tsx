@@ -1,5 +1,5 @@
 import Image from "next/image"
-import logo from "/public/images/logo.png"
+import logo from "/public/images/Logo.png"
 export default function Footer() {
   return (
     <div className="md:p-[50px] p-4 border-t-2 text-sm">
