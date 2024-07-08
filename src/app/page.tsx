@@ -4,6 +4,8 @@ import Marquee from "./marquee";
 import "./globals.css";
 import Navbar from "./navbar";
 import Alsolike from "./alsolike";
+import Image from "next/image";
+import logo from "/public/images/logo.png"
 export default function Home() {
   return (
     <div className="">
@@ -16,7 +18,7 @@ export default function Home() {
             <h2 className="text-[purple] font-extrabold text-[40px] font-dm-serif ">
               Pick n buy
             </h2>
-            <Image src="/images/logo.png" alt="Logo" />
+            <Image width={50} height={50} src={logo} alt="Logo" />
           </div>
     
          

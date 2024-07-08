@@ -1,10 +1,11 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image"
+import success from "/public/images/Success.png"
 export default function () {
   return (
     <div className="flex flex-col justify-center items-center gap-3 mt-3">
-      <Image className="w-20" src="images/Success.png" alt="" />
+      <Image width={100} height={100} className="w-20" src={success} alt="" />
       <h1 className="font-bold text-[21px]">Success!</h1>
       <p className="text-center">
         You have successfully made your payment. Thank you for shopping with us!

@@ -25,9 +25,9 @@ const config: Config = {
         'radial-gradient': 'radial-gradient(50% 50% at 50% 50%, #FFFFFF 55.89%, rgba(255, 255, 255, 0) 100%)', // Custom radial gradient
       },
 
-      fontFamily: {
-        'dm-serif': ['DM Serif Text', 'serif'], // Custom font family
-      },
+      // fontFamily: {
+      //   'dm-serif': ['DM Serif Text', 'serif'], // Custom font family
+      // },
       textColor:{
         "purple" :" hsla(274, 55%, 44%, 1)",
       },

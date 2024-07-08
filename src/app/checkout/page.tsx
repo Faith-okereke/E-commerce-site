@@ -4,6 +4,27 @@ import NavbarCheckout from "../checkoutNavbar";
 import Alsolike from "../alsolike";
 import Link from "next/link";
 import Image from "next/image"
+import mainImage from "/public/imageClothes/Rectangle-8.png"
+import product1 from "/public/imageClothes/Rectangle-22.png"
+import product2 from "/public/imageClothes/Rectangle-28.png"
+import product3 from "/public/imageClothes/Rectangle-22.png"
+import product4 from "/public/imageClothes/Rectangle-22.png"
+import product5 from "/public/imageClothes/Rectangle-30.png"
+import product6 from "/public/imageClothes/Rectangle-32.png"
+import product7 from "/public/imageClothes/Rectangle-39.png"
+import product8 from "/public/imageClothes/Rectangle-40.png"
+import product9 from "/public/imageClothes/Rectangle-41.png"
+import product10 from "/public/imageClothes/Rectangle-43.png"
+import product11 from "/public/imageClothes/Rectangle-45.png"
+import product12 from "/public/imageClothes/Rectangle-44.png"
+import product13 from "/public/imageClothes/Rectangle-46.png"
+import product14 from "/public/imageClothes/Rectangle-47.png"
+import product15 from "/public/imageClothes/Rectangle-48.png"
+import product16 from "/public/imageClothes/Rectangle-49.png"
+import product17 from "/public/imageClothes/Rectangle-50.png"
+import star from "/public/images/star.png"
+import link from"/public/images/link.png"
+import Nike from "/public/images/nike.png"
 export default function Checkout() {
   const [count, setCount] = useState(0);
   const [item,setItem] = useState(false)
@@ -23,16 +44,16 @@ export default function Checkout() {
       <NavbarCheckout />
       <div className=" md:flex md:flex-row flex-col md:justify-evenly mt-8 justify-center items-center md:items-start">
         <div className="p-4 flex justify-center items-center md:block">
-          <Image className="w-[300px]" src="imageClothes/Rectangle-22.png" alt="" />
+          <Image width={100} height={100}className="w-[300px]" src={product1} alt="" />
         </div>
         <div className="checkout text-sm flex flex-col justify-normal">
           <div className="flex items-center justify-normal gap-2 pt-2">
-            <Image src="images/nike.png" alt="" />
+            <Image width={20} height={20}src={Nike} alt="" />
             <p>Nike</p>
           </div>
           <div className="flex justify-between items-center pt-2">
             <p className="text-sm">Nike sneakers - Anorak</p>
-            <Image className=" p-1 w-[30px]" src="images/favorite.png" alt="" />
+            <Image width={100} height={100}className=" p-1 w-[30px]" src={product3} alt="" />
           </div>
           <div className="flex justify-between items-center pt-2">
             <p>Color</p>
@@ -87,32 +108,32 @@ export default function Checkout() {
           <div className=" justify-center md:justify-normal md:items-start items-center gap-2 mb-5 hidden md:flex">
             <Image
               className="w-[50px] h-[50px] rounded-sm"
-              src="imageClothes/Rectangle-22.png"
+              src={mainImage}
               alt=""
             />
             <Image
               className="w-[50px] h-[50px] rounded-sm"
-              src="imageClothes/Rectangle-22.png"
+              src={mainImage}
               alt=""
             />
             <Image
               className="w-[50px] h-[50px] rounded-sm"
-              src="imageClothes/Rectangle-22.png"
+              src={mainImage}
               alt=""
             />
             <Image
               className="w-[50px] h-[50px] rounded-sm"
-              src="imageClothes/Rectangle-22.png"
+              src={mainImage}
               alt=""
             />
           </div>
           <div className="flex gap-1 flex-row pb-4">
             <p>Reviews</p>
             <div className="flex items-center">
-              <Image src="images/star.png" alt="" />
-              <Image src="images/star.png" alt="" />
-              <Image src="images/star.png" alt="" />
-              <Image src="images/star.png" alt="" />
+              <Image width={100} height={100}src={star} alt="" />
+              <Image width={100} height={100}src={star} alt="" />
+              <Image width={100} height={100}src={star} alt="" />
+              <Image width={100} height={100}src={star} alt="" />
             </div>
 
             <p>8.4</p>
@@ -120,10 +141,10 @@ export default function Checkout() {
           <div className="flex flex-row overflow-x-hidden md:overflow-visible gap-2">
             <div className="text-sm border-2 md:border-none p-2 rounded-md md:rounded-none">
               <div className="flex items-center mt-6 ">
-                <Image src="images/star.png" alt="" />
-                <Image src="images/star.png" alt="" />
-                <Image src="images/star.png" alt="" />
-                <Image src="images/star.png" alt="" />
+                <Image width={100} height={100}src={star} alt="" />
+                <Image width={100} height={100}src={star} alt="" />
+                <Image width={100} height={100}src={star} alt="" />
+                <Image width={100} height={100}src={star} alt="" />
               </div>
               <div className="flex text-gray-300">
                 <p>OluwaKemi Ayo .</p>
@@ -138,10 +159,10 @@ export default function Checkout() {
             </div>
             <div className="text-sm border-2 md:border-none p-2 rounded-md md:rounded-none">
               <div className=" flex items-center mt-6  ">
-                <Image src="images/star.png" alt="" />
-                <Image src="images/star.png" alt="" />
-                <Image src="images/star.png" alt="" />
-                <Image src="images/star.png" alt="" />
+                <Image width={100} height={100}src={star} alt="" />
+                <Image width={100} height={100}src={star} alt="" />
+                <Image width={100} height={100}src={star} alt="" />
+                <Image width={100} height={100}src={star} alt="" />
               </div>
               <div className="flex text-gray-300">
                 <p>OluwaKemi Ayo .</p>
@@ -164,7 +185,7 @@ export default function Checkout() {
           </p>
           <p >Welcome Washington Area Bicyclist Association <br /> supporters! 15% of sales go to WABA, supporting <br />their mission. Empowering people to ride bikes , <br /> build con... <span className="font-bold cursor-pointer">Read more</span></p>
           <button className="flex items-center justify-center gap-1 rounded-md bg-gray p-2 text-[14px] mt-2">
-            <Image src="images/link.png" alt="" />
+            <Image width={100} height={100}src={link} alt="" />
             <p> More details at Nike</p>
           </button>
           <div className="flex gap-1 mt-2">
