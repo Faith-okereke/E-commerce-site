@@ -5,7 +5,7 @@ import "./globals.css";
 import Navbar from "./navbar";
 import Alsolike from "./alsolike";
 import Image from "next/image";
-import logo from "/public/images/logo.png"
+import logo from "/public/images/Logo.png"
 export default function Home() {
   return (
     <div className="">
