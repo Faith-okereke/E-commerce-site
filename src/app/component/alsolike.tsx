@@ -33,7 +33,7 @@ export default function Alsolike() {
             <p className="text-[purple] text-sm">(Male)</p>
           </div>
           <div className="flex flex-row justify-normal gap-5  ">
-            <div className="flex items-center ">
+            <div className="flex items-center gap-[2px]">
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
@@ -53,7 +53,7 @@ export default function Alsolike() {
             <p className="text-[purple] text-sm">(Male)</p>
           </div>
           <div className="flex  flex-row justify-normal gap-5   ">
-            <div className="flex items-center">
+            <div className="flex items-center gap-[2px]">
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
@@ -73,7 +73,7 @@ export default function Alsolike() {
             <p className="text-[purple] text-sm">(Male)</p>
           </div>
           <div className="flex  flex-row justify-normal gap-5 ">
-            <div className="flex items-center">
+            <div className="flex items-center gap-[2px]">
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
@@ -93,7 +93,7 @@ export default function Alsolike() {
             <p className="text-[purple] text-sm">(Male)</p>
           </div>
           <div className="flex  flex-row justify-normal gap-5 ">
-            <div className="flex items-center">
+            <div className="flex items-center gap-[2px]">
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
@@ -113,7 +113,7 @@ export default function Alsolike() {
             <p className="text-[purple] text-sm">(Male)</p>
           </div>
           <div className="flex  flex-row justify-normal gap-5 ">
-            <div className="flex items-center">
+            <div className="flex items-center gap-[2px]">
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
@@ -133,7 +133,7 @@ export default function Alsolike() {
             <p className="text-[purple] text-sm">(Male)</p>
           </div>
           <div className="flex flex-row justify-normal gap-5 ">
-            <div className="flex items-center">
+            <div className="flex items-center gap-[2px]">
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
@@ -153,7 +153,7 @@ export default function Alsolike() {
             <p className="text-[purple] text-sm">(Male)</p>
           </div>
           <div className="flex  flex-row justify-normal gap-5  ">
-            <div className="flex items-center">
+            <div className="flex items-center gap-[2px]">
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
@@ -173,7 +173,7 @@ export default function Alsolike() {
             <p className="text-[purple] text-sm">(Male)</p>
           </div>
           <div className="flex flex-row justify-normal gap-5 ">
-            <div className="flex items-center">
+            <div className="flex items-center gap-[2px]">
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
@@ -193,7 +193,7 @@ export default function Alsolike() {
             <p className="text-[purple] text-sm">(Male)</p>
           </div>
           <div className="flex flex-row justify-normal gap-5  ">
-            <div className="flex items-center">
+            <div className="flex items-center gap-[2px]">
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
@@ -213,7 +213,7 @@ export default function Alsolike() {
             <p className="text-[purple] text-sm">(Male)</p>
           </div>
           <div className="flex flex-row justify-normal gap-5   ">
-            <div className="flex items-center">
+            <div className="flex items-center gap-[2px]">
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
@@ -233,7 +233,7 @@ export default function Alsolike() {
             <p className="text-[purple] text-sm">(Male)</p>
           </div>
           <div className="flex flex-row justify-normal gap-5  ">
-            <div className="flex items-center">
+            <div className="flex items-center gap-[2px]">
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
@@ -253,7 +253,7 @@ export default function Alsolike() {
             <p className="text-[purple] text-sm">(Male)</p>
           </div>
           <div className="flex  flex-row justify-normal gap-5  ">
-            <div className="flex items-center">
+            <div className="flex items-center gap-[2px]">
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
