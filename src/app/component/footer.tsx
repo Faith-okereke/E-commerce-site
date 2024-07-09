@@ -21,7 +21,7 @@ export default function Footer() {
             Pick n buy is the place to get all <br /> your clothing needs. Our mission
             is <br /> to make shopping easy for everyone.
           </p>
-          <div className="flex gap-1">
+          <div className="flex gap-1 mb-2">
             <div className="p-1 border-2  flex justify-normal items-center gap-1 rounded-sm mt-2">
               <Image width={30} height={30} src={playstore} alt="" />
               <div className="gap-0 font-bold">

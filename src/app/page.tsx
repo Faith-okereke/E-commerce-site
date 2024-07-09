@@ -22,7 +22,7 @@ export default function Home() {
           </div>
     
          
-          <div className="flex items-center justify-center m-6 bg-[white] rounded-[10px] z-10 ">
+          <div className="flex items-center justify-center m-6 bg-[white] rounded-[10px] z-10 p-2">
             <div className=" flex cursor-pointer md:border-[5px] border-2 border-[brown]flex justify-normal items-center gap-[6rem] w-auto bg-white rounded-[10px] p-2 md:p-2">
               <div className="cursor-pointer">
                 <CiSearch />
