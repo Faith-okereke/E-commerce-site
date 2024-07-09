@@ -10,14 +10,12 @@ import success from "/public/images/Success.png"
       <p className="text-center">
         You have successfully made your payment. Thank you for shopping with us!
       </p>
-      <div className="flex items-center gap-1 justify-center mb-4">
-        <div className="w-full">
-        <button className="border-2 border-purple-600 text-purple text-xs rounded-lg p-2 object-contain md:w-[300px]">
-          Download receipt
-        </button>
+      <div className="flex items-center gap-1 justify-center mb-4 w-full p-2">
+        <div className="">
+        <button className="border-2 border-purple-600 text-purple text-xs rounded-lg p-2  md:w-[300px]">Download receipt</button>
         </div>
-       <div className="w-full">
-       <button className="bg-purple p-2 rounded-lg text-white mb-3 mt-3 text-xs object-contain md:w-[300px]">
+       <div className="">
+       <button className="bg-purple p-2 rounded-lg text-white mb-3 mt-3 text-xs md:w-[300px]">
           {" "}
           <Link href="/">Return Home</Link>{" "}
         </button>

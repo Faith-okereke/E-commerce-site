@@ -1,9 +1,9 @@
 "use client";
 import { CiSearch } from "react-icons/ci";
-import Marquee from "./marquee";
+import Marquee from "./component/marquee";
 import "./globals.css";
-import Navbar from "./navbar";
-import Alsolike from "./alsolike";
+import Navbar from "./component/navbar";
+import Alsolike from "./component/alsolike";
 import Image from "next/image";
 import logo from "/public/images/Logo.png"
 export default function Home() {

@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
-import NavbarCheckout from "../checkoutNavbar";
-import Alsolike from "../alsolike";
+import NavbarCheckout from "../component/checkoutNavbar";
+import Alsolike from "../component/alsolike";
 import Link from "next/link";
 import Image from "next/image"
 import mainImage from "/public/imageClothes/Rectangle-8.png"

@@ -1,5 +1,5 @@
 import React from "react";
-import NavbarCheckout from "../checkoutNavbar";
+import NavbarCheckout from "../component/checkoutNavbar";
 import Link from "next/link";
 import mastercard from "/public/images/mastercard.png"
 import verve from "/public/images/verve-card.png"
