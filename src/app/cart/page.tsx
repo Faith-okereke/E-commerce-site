@@ -41,7 +41,7 @@ export default function ContinueCheckout() {
             </div>
           </div>
           <div className="flex justify-between p-2 w-[100%]">
-            <div className="md:border-l-2 md:h-[185px] md:absolute md:left-[50%] md:ml-[-3px] md:top-[85px]"></div>
+            <div className="md:border-l-2 md:h-[185px] md:absolute md:left-[50%] md:ml-[-3px] md:top-[96px]"></div>
             <div className="flex flex-col justify-between w-full ">
               <div className="flex justify-between gap-8">
                 <p>Sub Total</p>

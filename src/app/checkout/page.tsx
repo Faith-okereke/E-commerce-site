@@ -99,8 +99,8 @@ export default function Checkout() {
         </div>
       </div>
       <div className="flex justify-evenly md:flex-row flex-col md:gap-5">
-        <div className=" pt-8 md:p-0 md:order-1">
-          <div className=" justify-center md:justify-normal md:items-start items-center gap-2 mb-5 hidden md:flex">
+        <div className=" pt-8 md:p-0 ">
+          <div className=" justify-center  md:items-start items-center gap-2 mb-5 hidden md:flex">
             <Image
               className="w-[50px] h-[50px] rounded-sm"
               src={mainImage}
@@ -185,10 +185,10 @@ export default function Checkout() {
             confidence
           </p>
           <p className="tracking-wide pb-2">
-            The Nike WABA is also a running shoe designed for athletes who
-            demand peak performance. It features a revolutionary new cushioning
-            system that delivers an incredibly energetic ride. The breathable
-            knit upper and sleek design make this shoe both functional and
+            The Nike WABA is also a running shoe designed <br /> for athletes who
+            demand peak performance. It <br /> features a revolutionary new cushioning
+            system <br /> that delivers an incredibly energetic ride. The <br /> breathable
+            knit upper and sleek design make <br/> this shoe both functional and
             stylish.
           </p>
         </div>
