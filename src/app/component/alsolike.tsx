@@ -19,6 +19,7 @@ import product15 from "/public/imageClothes/Rectangle-48.png"
 import product16 from "/public/imageClothes/Rectangle-49.png"
 import product17 from "/public/imageClothes/Rectangle-50.png"
 import star from "/public/images/star.png"
+import halfstar from "/public/images/halfstar.png"
 export default function Alsolike() {
   return (
     <div className="p-2 md:p-8 ">
@@ -27,16 +28,16 @@ export default function Alsolike() {
           <div>
             <Link href="checkout"><Image src={product1} alt="clothes" /></Link>
           </div>
-          <div className="flex items-center pt-3 pb23">
+          <div className="flex items-center pt-3 pb23 gap-5">
             <p className="text-sm">Rolex watch</p>
             <p className="text-[purple] text-sm">(Male)</p>
           </div>
-          <div className="flex flex-row justify-normal gap-5 justify-normal gap-4 ">
+          <div className="flex flex-row justify-normal gap-5  ">
             <div className="flex items-center ">
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
-              <Image width={20} height={20}src={star} alt="" />
+              <Image width={20} height={20}src={halfstar} alt="" />
             </div>
 
             <p>8.4</p>
@@ -47,16 +48,16 @@ export default function Alsolike() {
           <div>
             <Link href="checkout"><Image height={100} width={200} src={product12} alt="clothes" /></Link>
           </div>
-          <div className="flex items-center pt-3 pb23">
+          <div className="flex items-center pt-3 pb23 gap-5">
             <p className="text-sm">Rolex watch</p>
             <p className="text-[purple] text-sm">(Male)</p>
           </div>
-          <div className="flex gap-1 flex-row justify-normal gap-5 justify-normal gap-5  ">
+          <div className="flex  flex-row justify-normal gap-5   ">
             <div className="flex items-center">
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
-              <Image width={20} height={20}src={star} alt="" />
+              <Image width={20} height={20}src={halfstar} alt="" />
             </div>
 
             <p>8.4</p>
@@ -67,16 +68,16 @@ export default function Alsolike() {
           <div>
             <Link href="checkout"><Image height={100}width={200} src={product2} alt="clothes" /></Link>
           </div>
-          <div className="flex items-center pt-3 pb23">
+          <div className="flex items-center pt-3 pb23 gap-5">
             <p className="text-sm">Rolex watch</p>
             <p className="text-[purple] text-sm">(Male)</p>
           </div>
-          <div className="flex gap-1 flex-row justify-normal gap-5 justify-normal gap-5  ">
+          <div className="flex  flex-row justify-normal gap-5 ">
             <div className="flex items-center">
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
-              <Image width={20} height={20}src={star} alt="" />
+              <Image width={20} height={20}src={halfstar} alt="" />
             </div>
 
             <p>8.4</p>
@@ -87,16 +88,16 @@ export default function Alsolike() {
           <div>
             <Link href="checkout"><Image height={100}width={200} src={product14} alt="clothes" /></Link>
           </div>
-          <div className="flex items-center pt-3 pb23">
+          <div className="flex items-center pt-3 pb23 gap-5">
             <p className="text-sm">Rolex watch</p>
             <p className="text-[purple] text-sm">(Male)</p>
           </div>
-          <div className="flex gap-1 flex-row justify-normal gap-5 justify-normal gap-5  ">
+          <div className="flex  flex-row justify-normal gap-5 ">
             <div className="flex items-center">
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
-              <Image width={20} height={20}src={star} alt="" />
+              <Image width={20} height={20}src={halfstar} alt="" />
             </div>
 
             <p>8.4</p>
@@ -107,16 +108,16 @@ export default function Alsolike() {
           <div>
             <Link href="checkout"><Image  height={100}width={200} src={product5} alt="clothes" /></Link>
           </div>
-          <div className="flex items-center pt-3 pb23">
+          <div className="flex items-center pt-3 pb23 gap-5">
             <p className="text-sm">Rolex watch</p>
             <p className="text-[purple] text-sm">(Male)</p>
           </div>
-          <div className="flex gap-1 flex-row justify-normal gap-5 justify-normal gap-5  ">
+          <div className="flex  flex-row justify-normal gap-5 ">
             <div className="flex items-center">
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
-              <Image width={20} height={20}src={star} alt="" />
+              <Image width={20} height={20}src={halfstar} alt="" />
             </div>
 
             <p>8.4</p>
@@ -127,16 +128,16 @@ export default function Alsolike() {
           <div>
             <Link href="checkout"><Image height={100}width={200} src={product6} alt="clothes" /></Link>
           </div>
-          <div className="flex items-center pt-3 pb23">
+          <div className="flex items-center pt-3 pb23 gap-5">
             <p className="text-sm">Rolex watch</p>
             <p className="text-[purple] text-sm">(Male)</p>
           </div>
-          <div className="flex gap-1 flex-row justify-normal gap-5 justify-normal gap-5  ">
+          <div className="flex flex-row justify-normal gap-5 ">
             <div className="flex items-center">
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
-              <Image width={20} height={20}src={star} alt="" />
+              <Image width={20} height={20}src={halfstar} alt="" />
             </div>
 
             <p>8.4</p>
@@ -147,16 +148,16 @@ export default function Alsolike() {
           <div>
             <Link href="checkout"><Image height={100}width={200} src={product7} alt="clothes" /></Link>
           </div>
-          <div className="flex items-center pt-3 pb23">
+          <div className="flex items-center pt-3 pb23 gap-5">
             <p className="text-sm">Rolex watch</p>
             <p className="text-[purple] text-sm">(Male)</p>
           </div>
-          <div className="flex gap-1 flex-row justify-normal gap-5 justify-normal gap-5  ">
+          <div className="flex  flex-row justify-normal gap-5  ">
             <div className="flex items-center">
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
-              <Image width={20} height={20}src={star} alt="" />
+              <Image width={20} height={20}src={halfstar} alt="" />
             </div>
 
             <p>8.4</p>
@@ -167,16 +168,16 @@ export default function Alsolike() {
           <div>
             <Link href="checkout"><Image  height={100}width={200} src={product8} alt="clothes" /></Link>
           </div>
-          <div className="flex items-center pt-3 pb23">
+          <div className="flex items-center pt-3 pb23 gap-5">
             <p className="text-sm">Rolex watch</p>
             <p className="text-[purple] text-sm">(Male)</p>
           </div>
-          <div className="flex gap-1 flex-row justify-normal gap-5 justify-normal gap-5  ">
+          <div className="flex flex-row justify-normal gap-5 ">
             <div className="flex items-center">
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
-              <Image width={20} height={20}src={star} alt="" />
+              <Image width={20} height={20}src={halfstar} alt="" />
             </div>
 
             <p>8.4</p>
@@ -187,16 +188,16 @@ export default function Alsolike() {
           <div>
             <Link href="checkout"><Image height={100}width={200} src={product9} alt="clothes" /></Link>
           </div>
-          <div className="flex items-center pt-3 pb23">
+          <div className="flex items-center pt-3 pb23 gap-5">
             <p className="text-sm">Rolex watch</p>
             <p className="text-[purple] text-sm">(Male)</p>
           </div>
-          <div className="flex gap-1 flex-row justify-normal gap-5  ">
+          <div className="flex flex-row justify-normal gap-5  ">
             <div className="flex items-center">
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
-              <Image width={20} height={20}src={star} alt="" />
+              <Image width={20} height={20}src={halfstar} alt="" />
             </div>
 
             <p>8.4</p>
@@ -207,16 +208,16 @@ export default function Alsolike() {
           <div>
             <Link href="checkout"><Image  height={100} width={200} src={product10} alt="clothes" /></Link>
           </div>
-          <div className="flex items-center pt-3 pb23">
+          <div className="flex items-center pt-3 pb23 gap-5">
             <p className="text-sm">Rolex watch</p>
             <p className="text-[purple] text-sm">(Male)</p>
           </div>
-          <div className="flex gap-1 flex-row justify-normal gap-5 justify-normal gap-5  ">
+          <div className="flex flex-row justify-normal gap-5   ">
             <div className="flex items-center">
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
-              <Image width={20} height={20}src={star} alt="" />
+              <Image width={20} height={20}src={halfstar} alt="" />
             </div>
 
             <p>8.4</p>
@@ -227,16 +228,16 @@ export default function Alsolike() {
           <div>
             <Link href="checkout"><Image  height={100}width={200} src={product11} alt="clothes" /></Link>
           </div>
-          <div className="flex items-center pt-3 pb23">
+          <div className="flex items-center pt-3 pb23 gap-5">
             <p className="text-sm">Rolex watch</p>
             <p className="text-[purple] text-sm">(Male)</p>
           </div>
-          <div className="flex gap-1 flex-row justify-normal gap-5 justify-normal gap-5  ">
+          <div className="flex flex-row justify-normal gap-5  ">
             <div className="flex items-center">
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
-              <Image width={20} height={20}src={star} alt="" />
+              <Image width={20} height={20}src={halfstar} alt="" />
             </div>
 
             <p>8.4</p>
@@ -247,16 +248,16 @@ export default function Alsolike() {
           <div>
             <Link href="checkout"><Image height={100}width={200} src={product12} alt="clothes" /></Link>
           </div>
-          <div className="flex items-center pt-3 pb23">
+          <div className="flex items-center pt-3 pb23 gap-5">
             <p className="text-sm">Rolex watch</p>
             <p className="text-[purple] text-sm">(Male)</p>
           </div>
-          <div className="flex gap-1 flex-row justify-normal gap-5  ">
+          <div className="flex  flex-row justify-normal gap-5  ">
             <div className="flex items-center">
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
-              <Image width={20} height={20}src={star} alt="" />
+              <Image width={20} height={20}src={halfstar} alt="" />
             </div>
 
             <p>8.4</p>
