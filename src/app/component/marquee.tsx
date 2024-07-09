@@ -18,7 +18,7 @@ import product16 from "/public/imageClothes/Rectangle-49.png"
 import product17 from "/public/imageClothes/Rectangle-50.png"
 export default function Marquee() {
   return (
-    <div className="overflow-hidden whitespace-nowrap bg-gray-200 py-2 z-10">
+    <div className="overflow-hidden whitespace-nowrap bg-gray-200 py-2 z-10 mt-8">
       <div className="flex gap-[1rem] animate-marquee px-2 mb-3">
         <Image width={100} height={100} className="w-[100px] md:w-auto" src={product1} alt="" />
         <Image width={100} height={100} className="w-[100px] md:w-auto" src={product2} alt="" />

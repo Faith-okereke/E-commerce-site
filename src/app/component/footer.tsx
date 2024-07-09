@@ -17,20 +17,20 @@ export default function Footer() {
               alt="Logo"
             />
           </div>
-          <p className="text-xs text-justify tracking-normal">
+          <p className="text-xs text-justify tracking-wide">
             Pick n buy is the place to get all <br /> your clothing needs. Our mission
             is <br /> to make shopping easy for everyone.
           </p>
           <div className="flex gap-1 mb-2">
-            <div className="p-1 border-2  flex justify-normal items-center gap-1 rounded-sm mt-2">
-              <Image width={30} height={30} src={playstore} alt="" />
+            <div className="p-1 border-2  flex justify-normal items-center gap-1 rounded-sm mt-3">
+              <Image className="w-[25px] md-[30px]" width={30} height={30} src={playstore} alt="" />
               <div className="gap-0 font-bold">
                 <p className="text-[10px]">Download on the </p>
                 <p className="text-[12px]">Play Store</p>
               </div>
             </div>
-            <div className="p-1 border-2  flex justify-normal items-center gap-1 rounded-sm mt-2">
-              <Image width={30} height={30} src={apple} alt="" />
+            <div className="p-1 border-2  flex justify-normal items-center gap-1 rounded-sm mt-3">
+              <Image  className="w-[25px] md-[30px]" width={30} height={30} src={apple} alt="" />
               <div className="gap-0 font-bold">
                 <p className="text-[10px]">Download on the</p>
                 <p className="text-[12px]">App Store</p>

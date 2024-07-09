@@ -59,7 +59,7 @@ export default function ContinueCheckout() {
       </div>
 
       <div>
-        <p className="text-[20px] text-purple pb-5 pt-5">Recently Viewed</p>
+        <p className="text-[20px] text-purple p-5">Recently Viewed</p>
         <Alsolike />
       </div>
     </div>

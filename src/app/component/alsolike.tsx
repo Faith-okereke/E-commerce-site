@@ -21,7 +21,7 @@ import product17 from "/public/imageClothes/Rectangle-50.png"
 import star from "/public/images/star.png"
 export default function Alsolike() {
   return (
-    <div className="p-2 md:p-8">
+    <div className="p-2 md:p-8 ">
       <div className="grid grid-cols-2 sm:grid-cols-6 gap-2 md:pb-20 pb-6 m-auto">
         <div  className="m-auto">
           <div>
@@ -45,7 +45,7 @@ export default function Alsolike() {
         </div>
         <div  className="m-auto">
           <div>
-            <Link href="checkout"><Image height={100} width={200} src={product2} alt="clothes" /></Link>
+            <Link href="checkout"><Image height={100} width={200} src={product12} alt="clothes" /></Link>
           </div>
           <div className="flex items-center pt-3 pb23">
             <p className="text-sm">Rolex watch</p>
@@ -65,7 +65,7 @@ export default function Alsolike() {
         </div>
         <div  className="m-auto">
           <div>
-            <Link href="checkout"><Image height={100}width={200} src={product3} alt="clothes" /></Link>
+            <Link href="checkout"><Image height={100}width={200} src={product2} alt="clothes" /></Link>
           </div>
           <div className="flex items-center pt-3 pb23">
             <p className="text-sm">Rolex watch</p>
@@ -85,7 +85,7 @@ export default function Alsolike() {
         </div>
         <div  className="m-auto">
           <div>
-            <Link href="checkout"><Image height={100}width={200} src={product4} alt="clothes" /></Link>
+            <Link href="checkout"><Image height={100}width={200} src={product14} alt="clothes" /></Link>
           </div>
           <div className="flex items-center pt-3 pb23">
             <p className="text-sm">Rolex watch</p>
