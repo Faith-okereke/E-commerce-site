@@ -5,7 +5,7 @@ import logo from "/public/images/Logo.png"
 import Link from "next/link";
 export default function NavbarCheckout() {
   return (
-    <div className=" bg-[white] flex items-center justify-between pl-4 pr-4 pt-3">
+    <div className=" bg-[white] flex items-center justify-between p-3">
       <div className="flex items-center">
       <h2 className="text-[purple] font-extrabold text-[15px]">
               Pick n buy
