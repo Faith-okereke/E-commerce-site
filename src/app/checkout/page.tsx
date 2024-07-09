@@ -181,8 +181,8 @@ export default function Checkout() {
           <p className="tracking-wide pb-2">
             Welcome Washington Area Bicyclist Association <br /> supporters! 15%
             of sales go to WABA, supporting <br />
-            their mission. Empowering people to ride bikes , <br /> build
-            confidence
+            their mission. Empowering people to ride bikes <br /> build
+            confidence.
           </p>
           <p className="tracking-wide pb-2">
             The Nike WABA is also a running shoe designed <br /> for athletes who
