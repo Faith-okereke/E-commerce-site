@@ -91,7 +91,7 @@ export default function Checkout() {
             {" "}
             {!item ? "Add to cart" : "Added"}
           </button>
-          <Link href="/cart">
+          <Link href="/pay">
             <button className="bg-purple p-3 rounded-sm text-white w-[100%] ">
               Buy now
             </button>
