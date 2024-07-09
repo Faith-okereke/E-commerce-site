@@ -31,7 +31,7 @@ export default function Alsolike() {
             <p className="text-sm">Rolex watch</p>
             <p className="text-[purple] text-sm">(Male)</p>
           </div>
-          <div className="flex flex-row justify-normal gap-4 ">
+          <div className="flex flex-row justify-normal gap-5 justify-normal gap-4 ">
             <div className="flex items-center ">
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
@@ -51,7 +51,7 @@ export default function Alsolike() {
             <p className="text-sm">Rolex watch</p>
             <p className="text-[purple] text-sm">(Male)</p>
           </div>
-          <div className="flex gap-1 flex-row  ">
+          <div className="flex gap-1 flex-row justify-normal gap-5 justify-normal gap-5  ">
             <div className="flex items-center">
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
@@ -71,7 +71,7 @@ export default function Alsolike() {
             <p className="text-sm">Rolex watch</p>
             <p className="text-[purple] text-sm">(Male)</p>
           </div>
-          <div className="flex gap-1 flex-row  ">
+          <div className="flex gap-1 flex-row justify-normal gap-5 justify-normal gap-5  ">
             <div className="flex items-center">
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
@@ -91,7 +91,7 @@ export default function Alsolike() {
             <p className="text-sm">Rolex watch</p>
             <p className="text-[purple] text-sm">(Male)</p>
           </div>
-          <div className="flex gap-1 flex-row  ">
+          <div className="flex gap-1 flex-row justify-normal gap-5 justify-normal gap-5  ">
             <div className="flex items-center">
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
@@ -111,7 +111,7 @@ export default function Alsolike() {
             <p className="text-sm">Rolex watch</p>
             <p className="text-[purple] text-sm">(Male)</p>
           </div>
-          <div className="flex gap-1 flex-row  ">
+          <div className="flex gap-1 flex-row justify-normal gap-5 justify-normal gap-5  ">
             <div className="flex items-center">
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
@@ -125,13 +125,13 @@ export default function Alsolike() {
         </div>
         <div  className="m-auto">
           <div>
-            <Link href="checkout"><Image  height={100}width={200} src={product6} alt="clothes" /></Link>
+            <Link href="checkout"><Image height={100}width={200} src={product6} alt="clothes" /></Link>
           </div>
           <div className="flex items-center pt-3 pb23">
             <p className="text-sm">Rolex watch</p>
             <p className="text-[purple] text-sm">(Male)</p>
           </div>
-          <div className="flex gap-1 flex-row  ">
+          <div className="flex gap-1 flex-row justify-normal gap-5 justify-normal gap-5  ">
             <div className="flex items-center">
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
@@ -151,7 +151,7 @@ export default function Alsolike() {
             <p className="text-sm">Rolex watch</p>
             <p className="text-[purple] text-sm">(Male)</p>
           </div>
-          <div className="flex gap-1 flex-row  ">
+          <div className="flex gap-1 flex-row justify-normal gap-5 justify-normal gap-5  ">
             <div className="flex items-center">
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
@@ -171,7 +171,7 @@ export default function Alsolike() {
             <p className="text-sm">Rolex watch</p>
             <p className="text-[purple] text-sm">(Male)</p>
           </div>
-          <div className="flex gap-1 flex-row  ">
+          <div className="flex gap-1 flex-row justify-normal gap-5 justify-normal gap-5  ">
             <div className="flex items-center">
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
@@ -191,7 +191,7 @@ export default function Alsolike() {
             <p className="text-sm">Rolex watch</p>
             <p className="text-[purple] text-sm">(Male)</p>
           </div>
-          <div className="flex gap-1 flex-row  ">
+          <div className="flex gap-1 flex-row justify-normal gap-5  ">
             <div className="flex items-center">
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
@@ -211,7 +211,7 @@ export default function Alsolike() {
             <p className="text-sm">Rolex watch</p>
             <p className="text-[purple] text-sm">(Male)</p>
           </div>
-          <div className="flex gap-1 flex-row  ">
+          <div className="flex gap-1 flex-row justify-normal gap-5 justify-normal gap-5  ">
             <div className="flex items-center">
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
@@ -231,7 +231,7 @@ export default function Alsolike() {
             <p className="text-sm">Rolex watch</p>
             <p className="text-[purple] text-sm">(Male)</p>
           </div>
-          <div className="flex gap-1 flex-row  ">
+          <div className="flex gap-1 flex-row justify-normal gap-5 justify-normal gap-5  ">
             <div className="flex items-center">
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />
@@ -251,7 +251,7 @@ export default function Alsolike() {
             <p className="text-sm">Rolex watch</p>
             <p className="text-[purple] text-sm">(Male)</p>
           </div>
-          <div className="flex gap-1 flex-row  ">
+          <div className="flex gap-1 flex-row justify-normal gap-5  ">
             <div className="flex items-center">
               <Image width={20} height={20}src={star} alt="" />
               <Image width={20} height={20}src={star} alt="" />

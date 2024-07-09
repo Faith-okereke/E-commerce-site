@@ -3,14 +3,14 @@ import React, { useState } from "react";
 import NavbarCheckout from "../component/cartNav";
 import Alsolike from "../component/alsolike";
 import Link from "next/link";
-import Image from "next/image"
-import mainImage from "/public/imageClothes/Rectangle-8.png"
-import star from "/public/images/star.png"
-import link from"/public/images/link.png"
-import Nike from "/public/images/nike.png"
+import Image from "next/image";
+import mainImage from "/public/imageClothes/Rectangle-8.png";
+import star from "/public/images/star.png";
+import link from "/public/images/link.png";
+import Nike from "/public/images/nike.png";
 export default function Checkout() {
   const [count, setCount] = useState(0);
-  const [item,setItem] = useState(false)
+  const [item, setItem] = useState(false);
   const addNumber = () => {
     setCount((prevCount) => prevCount + 1);
   };
@@ -18,25 +18,37 @@ export default function Checkout() {
     setCount((prevCount) => prevCount - 1);
   };
   const addItemToCart = () => {
-    setItem(true)
+    setItem(true);
     alert("Added");
   };
- 
+
   return (
     <div className="p-5  md:p-0">
       <NavbarCheckout />
       <div className=" md:flex md:flex-row flex-col md:justify-evenly mt-8 justify-center items-center md:items-start">
         <div className="p-4 flex justify-center items-center md:block">
-          <Image width={100} height={100}className="w-[300px]" src={mainImage} alt="" />
+          <Image
+            width={100}
+            height={100}
+            className="w-[300px]"
+            src={mainImage}
+            alt=""
+          />
         </div>
         <div className="checkout text-sm flex flex-col justify-normal">
           <div className="flex items-center justify-normal gap-2 pt-2">
-            <Image width={20} height={20}src={Nike} alt="" />
+            <Image width={20} height={20} src={Nike} alt="" />
             <p>Nike</p>
           </div>
           <div className="flex justify-between items-center pt-2">
             <p className="text-sm">Nike sneakers - Anorak</p>
-            <Image width={100} height={100}className=" p-1 w-[30px]" src={mainImage} alt="" />
+            <Image
+              width={100}
+              height={100}
+              className=" p-1 w-[30px]"
+              src={mainImage}
+              alt=""
+            />
           </div>
           <div className="flex justify-between items-center pt-2">
             <p>Color</p>
@@ -72,18 +84,18 @@ export default function Checkout() {
               </div>
             </div>
           </div>
-       <button
+          <button
             className="border-2 border-gray text-purple p-3 rounded-lg mb-3 mt-3 "
             onClick={addItemToCart}
           >
             {" "}
-           {!item ? "Add to cart" : "Added"}
+            {!item ? "Add to cart" : "Added"}
           </button>
-         <Link href="/continueCheckout">
-         <button className="bg-purple p-3 rounded-sm text-white w-[100%] ">
-            Buy now
-          </button>
-         </Link> 
+          <Link href="/continueCheckout">
+            <button className="bg-purple p-3 rounded-sm text-white w-[100%] ">
+              Buy now
+            </button>
+          </Link>
         </div>
       </div>
       <div className="flex justify-evenly md:flex-row flex-col md:gap-5">
@@ -113,10 +125,10 @@ export default function Checkout() {
           <div className="flex gap-1 flex-row pb-4">
             <p>Reviews</p>
             <div className="flex items-center">
-              <Image width={20} height={20}src={star} alt="" />
-              <Image width={20} height={20}src={star} alt="" />
-              <Image width={20} height={20}src={star} alt="" />
-              <Image width={20} height={20}src={star} alt="" />
+              <Image width={20} height={20} src={star} alt="" />
+              <Image width={20} height={20} src={star} alt="" />
+              <Image width={20} height={20} src={star} alt="" />
+              <Image width={20} height={20} src={star} alt="" />
             </div>
 
             <p>8.4</p>
@@ -124,10 +136,10 @@ export default function Checkout() {
           <div className="flex flex-row overflow-x-hidden md:overflow-visible gap-2">
             <div className="text-sm border-2 md:border-none p-2 rounded-md md:rounded-none">
               <div className="flex items-center mt-6 ">
-                <Image width={20} height={20}src={star} alt="" />
-                <Image width={20} height={20}src={star} alt="" />
-                <Image width={20} height={20}src={star} alt="" />
-                <Image width={20} height={20}src={star} alt="" />
+                <Image width={20} height={20} src={star} alt="" />
+                <Image width={20} height={20} src={star} alt="" />
+                <Image width={20} height={20} src={star} alt="" />
+                <Image width={20} height={20} src={star} alt="" />
               </div>
               <div className="flex text-gray-300">
                 <p>OluwaKemi Ayo .</p>
@@ -142,10 +154,10 @@ export default function Checkout() {
             </div>
             <div className="text-sm border-2 md:border-none p-2 rounded-md md:rounded-none">
               <div className=" flex items-center mt-6  ">
-                <Image width={20} height={20}src={star} alt="" />
-                <Image width={20} height={20}src={star} alt="" />
-                <Image width={20} height={20}src={star} alt="" />
-                <Image width={20} height={20}src={star} alt="" />
+                <Image width={20} height={20} src={star} alt="" />
+                <Image width={20} height={20} src={star} alt="" />
+                <Image width={20} height={20} src={star} alt="" />
+                <Image width={20} height={20} src={star} alt="" />
               </div>
               <div className="flex text-gray-300">
                 <p>OluwaKemi Ayo .</p>
@@ -163,18 +175,28 @@ export default function Checkout() {
         <div className="text-sm flex flex-col pt-4">
           <p>Description</p>
           <p className="font-bold pt-2 pb-2">
-            **Anoraks are made to order. Please allow 3-5 days <br /> for your order to
-            ship. No returns.**
+            **Anoraks are made to order. Please allow 3-5 days <br /> for your
+            order to ship. No returns.**
           </p>
-          <p >Welcome Washington Area Bicyclist Association <br /> supporters! 15% of sales go to WABA, supporting <br />their mission. Empowering people to ride bikes , <br /> build con... <span className="font-bold cursor-pointer">Read more</span></p>
-          <button className="flex items-center justify-center gap-1 rounded-md bg-gray p-2 text-[14px] mt-2">
-            <Image width={20} height={20}src={link} alt="" />
-            <p> More details at Nike</p>
-          </button>
+          <p className="tracking-wide pb-2">
+            Welcome Washington Area Bicyclist Association <br /> supporters! 15%
+            of sales go to WABA, supporting <br />
+            their mission. Empowering people to ride bikes , <br /> build
+            confidence
+          </p>
+          <p className="tracking-wide pb-2">
+            The Nike WABA is also a running shoe designed for athletes who
+            demand peak performance. It features a revolutionary new cushioning
+            system that delivers an incredibly energetic ride. The breathable
+            knit upper and sleek design make this shoe both functional and
+            stylish.
+          </p>
         </div>
       </div>
-      <h2 className='text-[purple] font-extrabold text-[24px] font-dm-serif p-3'>You may also like</h2>
-      <Alsolike/>
+      <h2 className="text-[purple] font-extrabold text-[24px] font-dm-serif p-3">
+        You may also like
+      </h2>
+      <Alsolike />
     </div>
   );
 }
