@@ -1,5 +1,5 @@
 import React from "react";
-import NavbarCheckout from "../component/checkoutNavbar";
+import NavbarCheckout from "../component/cartNav";
 import Link from "next/link";
 import mastercard from "/public/images/mastercard.png"
 import verve from "/public/images/verve-card.png"
@@ -155,7 +155,7 @@ export default function page() {
                 Privacy Policy
               </span>{" "}
             </p>
-            <Link href="/thank-you">
+            <Link href="/success">
               <button className="bg-purple p-3 rounded-lg text-white  mt-3 text-sm w-[100%]">
                 Pay
               </button>

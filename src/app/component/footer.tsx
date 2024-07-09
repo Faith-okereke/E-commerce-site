@@ -43,7 +43,7 @@ export default function Footer() {
             <a className="text-black" href="https://www.hng/internship.com">
               Information
             </a>
-            <a href="https://www.hng/internship.com">Shop Pay</a>
+            <a href="https://www.hng/internship.com">Pick n buy</a>
             <a href="https://www.hng/internship.com">Help Center</a>
             <a href="https://www.hng/internship.com">Brand</a>
           </div>

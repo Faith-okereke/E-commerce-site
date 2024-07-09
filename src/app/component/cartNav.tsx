@@ -1,13 +1,13 @@
 import { CiSearch } from "react-icons/ci";
 import Image from "next/image";
 import cart from "/public/images/cart.png"
-import heart from "/public/images/heart.png"
 import logo from "/public/images/Logo.png"
+import Link from "next/link";
 export default function NavbarCheckout() {
   return (
-    <div className=" bg-[white] flex items-center justify-between pl-8 pr-8 pt-4">
+    <div className=" bg-[white] flex items-center justify-between pl-4 pr-4 pt-3">
       <div className="flex items-center">
-      <h2 className="text-[purple] font-extrabold text-[15px] font-dm-serif sm:hidden ">
+      <h2 className="text-[purple] font-extrabold text-[15px]">
               Pick n buy
             </h2>
       <Image width={200} height={200} className="w-[20px] md:w-auto" src={logo} alt="" />
@@ -25,10 +25,9 @@ export default function NavbarCheckout() {
           />
         </div>
       </div>
-      <div className="flex justify-end items-center gap-[1rem] ">
-        <Image width={32} height={32} className="md:w-[32px] md:h-[32px] w-[20px]" src={heart} alt="Logo" />
-        <Image width={32} height={32} className="md:w-[32px] md:h-[32px] w-[20px]" src={cart} alt="Cart" />
-        <div className="bg-[purple] rounded-full md:w-[45px] md:h-[45px] w-[20px] h-[20px] flex justify-center items-center">
+      <div className="flex justify-end items-center gap-[1rem]">
+       <Link href="/cart"><Image width={32} height={32} className="md:w-[32px] md:h-[32px] w-[20px]" src={cart} alt="Cart" /></Link> 
+        <div className="bg-[purple] rounded-full md:w-[40px] md:h-[40px] w-[20px] h-[20px] flex justify-center items-center">
           <p className="text-white text-center text-sm md:text-md">F</p>
         </div>
       </div>

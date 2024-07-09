@@ -1,13 +1,10 @@
 "use client";
 import React, { useState } from "react";
-import NavbarCheckout from "../component/checkoutNavbar";
+import NavbarCheckout from "../component/cartNav";
 import Alsolike from "../component/alsolike";
 import Link from "next/link";
 import Image from "next/image"
 import mainImage from "/public/imageClothes/Rectangle-8.png"
-
-import product3 from "/public/imageClothes/Rectangle-22.png"
-
 import star from "/public/images/star.png"
 import link from"/public/images/link.png"
 import Nike from "/public/images/nike.png"
@@ -174,10 +171,6 @@ export default function Checkout() {
             <Image width={20} height={20}src={link} alt="" />
             <p> More details at Nike</p>
           </button>
-          <div className="flex gap-1 mt-2">
-            <button className="rounded-md bg-gray p-2 text-[14px] w-[100%]">Shipping Policy</button>
-            <button className="rounded-md bg-gray p-2 text-[14px] w-[100%]">Refund Policy</button>
-          </div>
         </div>
       </div>
       <h2 className='text-[purple] font-extrabold text-[24px] font-dm-serif p-3'>You may also like</h2>

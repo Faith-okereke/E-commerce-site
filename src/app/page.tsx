@@ -1,4 +1,3 @@
-"use client";
 import { CiSearch } from "react-icons/ci";
 import Marquee from "./component/marquee";
 import "./globals.css";
